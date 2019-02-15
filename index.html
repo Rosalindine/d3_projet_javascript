@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Moon</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>moon moon moon <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Moon</h1>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/lune-icon.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/lune-icon.png" alt="iPhone app preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Moon</span> and us</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/lune_ico.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/lune_ico.png" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Fantastic</span> Moon</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/lune-icon4.png" alt="MacBook" />
+						<div class="preview">
+							<img src="images/lune-icon4.png" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Amazing</span> Magic moon</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/lune-icon3.jpg" alt="iMac" />
+						<div class="preview">
+							<img src="images/lune-icon3.png" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Glorious</span> Moon</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/lunestok.png" alt="Apple Watch" />
+						<div class="preview rounded">
+							<img src="images/lunestok.png" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Fabulous</span> and more moons</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/different.gif" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Our Story</h2>
+					<h3>And the place of the moon in our lifes</h3>
+					<p>The giant-impact hypothesis, sometimes called the Big Splash, or the Theia Impact suggests that the Moon formed out of the debris left over from a collision between Earth and an astronomical body the size of Mars, approximately 4.5 billion years ago, in the Hadean eon; about 20 to 100 million years after the solar system coalesced. The colliding body is sometimes called Theia, from the name of the mythical Greek Titan who was the mother of Selene, the goddess of the Moon. Analysis of lunar rocks, published in a 2016 report, suggests that the impact may have been a direct hit, causing a thorough mixing of both parent bodies.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/moon.gif" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>The moon</h2>
+					<h3>And all you have to know about her</h3>
+					<p>Don’t let its size fool you. iPad mini 3 is powered by an A7 chip with 64-bit desktop-class architecture. A7 delivers amazing processing power without sacriﬁcing battery life. So you get incredible performance in a device you can take with you wherever you go.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/sad.gif" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>The Magic</h2>
+					<h3>or why the moons looks so important for us</h3>
+					<p>There is a belief common to many cultures that working rituals at the time of different phases of the moon can bring about physical or psychological change or transformation. These rituals have historically occurred on or around the full moon and to a lesser extent the new moon. Such practices are common amongst adherents of neopagan and witchcraft systems such as Wicca. Witches in Greek and Roman literature, particularly those from Thessaly, were regularly accused of "drawing down the moon" by use of a magic spell.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/cold.gif" alt="iMac Content" />
+				<div class="content__item-inner">
+					<h2>The temperatures</h2>
+					<h3>Not exactly as ours</h3>
+					<p>It's not as hot [as Earth's interior] because the moon is smaller — hence its internal pressure is also smaller," NASA planetary scientist Renee Webber said during an online chat hosted by NASA. "The temperatures are probably lower than those of Earth.</p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/jupiters.dms" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>More Moons</h2>
+					<h3>There are other moon than yours</h3>
+					<p>There is a lot of moons in the univers, the famous one is the Earth's moon but Jupiter has some also beautiful. There names are Ganymède, Io, Europa and Calisto. </p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
